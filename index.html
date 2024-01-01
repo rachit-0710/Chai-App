@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="device">
+            <header>
+                <h1><strong>CHAI</strong>byRachit</h1>
+            </header>
+            <section>
+                <form>            
+                    <input type="radio" name="coffeeType" id="espresso">
+                    <input type="radio" name="coffeeType" id="doppio">
+                    <input type="radio" name="coffeeType" id="macchiatto">
+                    <input type="radio" name="coffeeType" id="cortado">
+                    <input type="radio" name="coffeeType" id="cappuccino">
+                    <input type="radio" name="coffeeType" id="americano">
+                    <input type="radio" name="coffeeType" id="mocha">
+                    <input type="radio" name="coffeeType" id="latte">
+                    <input type="radio" name="coffeeType" id="breve">
+                    <input type="radio" name="coffeeType" id="mochabreve">
+                    <input type="radio" name="coffeeType" id="flatwhite">
+                    <input type="radio" name="coffeeType" id="bombon">
+                    <div class="coffee-title">                
+                        <nav class="coffee-labels">
+                            <label for="doppio">
+                                <span>Masala Chai</span>
+                                <p>A classic Indian spiced tea, Masala Chai blends black tea with a medley of aromatic spices like cinnamon, cloves, and cardamom, creating a bold, flavorful, and comforting beverage.</p>
+                            </label>
+                            <label for="macchiatto">
+                                <span>Adrak Chai</span>
+                                <p>Ginger-infused chai, renowned for its warm and pungent kick, this invigorating blend merges the robust flavors of tea with the spicy notes of fresh ginger for a revitalizing experience.</p>
+                            </label>
+                            <label for="cortado">
+                                <span>Elaichi Chai</span>
+                                <p>Cardamom-infused chai, celebrated for its aromatic and invigorating qualities, combining the boldness of Indian tea with the subtle, citrusy spice of cardamom.</p>
+                            </label>
+                            <label for="cappuccino">
+                                <span>Kashmiri Chai</span>
+                                <p>A specialty from the Kashmir region, this chai features a unique blend of green tea, spices, and nuts, creating a rich and flavorful beverage with a touch of indulgent sweetness.</p>
+                            </label>
+                            <label for="americano">
+                                <span>Kesar Chai</span>
+                                <p>Saffron-infused chai, offering a luxurious and aromatic blend that combines the warmth of traditional Indian tea with the rich, golden hue and subtle flavors of saffron.</p>
+                            </label>
+                            <label for="mocha">
+                                <span>Rose Chai</span>
+                                <p>Infused with the floral notes of rose, this chai delicately balances the aromatic sweetness of roses with the robustness of Indian tea for a fragrant and soothing experience.</p>
+                            </label>
+                            <label for="latte">
+                                <span>Chocolate Chai</span>
+                                <p>A delightful fusion of Indian tea and decadent chocolate, offering a rich and comforting beverage with a perfect blend of warmth and sweetness.</p>
+                            </label>
+                            <label for="breve">
+                                <span>Paan Chai</span>
+                                <p>A bold fusion of traditional Indian tea and refreshing betel leaf, crafting a uniquely aromatic and flavorful beverage that brings a touch of innovation to the classic chai experience.</p>
+                            </label>
+                            <label for="mochabreve">
+                                <span>Lemon Chaii</span>
+                                <p>A vibrant infusion of Indian tea adorned with the zesty essence of lemon, creating a refreshing and uplifting beverage that adds a citrusy twist to the classic chai experience. The perfect balance of warmth and zest in every delightful sip.</p>
+                            </label>
+                            <label for="flatwhite">
+                                <span>Tulsi Chai</span>
+                                <p>A harmonious fusion of robust Indian tea and the invigorating essence of holy basil, creating a comforting and revitalizing brew that soothes both the senses and the soul.</p>
+                            </label>
+                            <label for="bombon">
+                                <span>Kullad Chai</span>
+                                <p>A spiced Indian tea served in a clay cup for a unique, earthy flavor experience—a perfect blend of tradition and aromatic indulgence.</p>
+                            </label>
+                        </nav>
+                    </div>
+                    <a href="#" class="coffee-info" tabindex="1">
+                        <!-- <div class="coffee-recipe">
+                            <div class="recipe-foam">milk foam</div>
+                            <div class="recipe-steam">steamed milk</div>
+                            <div class="recipe-water">hot water</div>
+                            <div class="recipe-half">half &amp; half</div>
+                            <div class="recipe-chocolate">chocolate</div>
+                            <div class="recipe-crema"></div>
+                            <div class="recipe-espresso">espresso</div>
+                            <div class="recipe-condensed">condensed milk</div>
+                        </div> -->
+                        <div class="coffee-cup">
+                            <div class="coffee-steam">
+                                <div class="steam"></div>
+                                <div class="steam large"></div>
+                                <div class="steam"></div>
+                            </div>
+                            <div class="coffee-ingredients">                      
+                                <!-- <div class="ingredient-foam"></div>
+                                <div class="ingredient-steam"></div>
+                                <div class="ingredient-water"></div>
+                                <div class="ingredient-half"></div>
+                                <div class="ingredient-chocolate"></div>
+                                <div class="ingredient-crema"></div> -->
+                                <div class="ingredient-espresso"></div>
+                                <!-- <div class="ingredient-condensed"></div> -->
+                            </div>
+                        </div>
+                    </a>
+                    <div class="info-overlay"></div>
+                    <div class="coffee-controls">
+                        
+                        <button type="reset">
+                            Chai Menu
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <aside>
+      <div class="meta">    
+        <h1>CSS-only Chai App Concept</h1>
+        <p>
+          Original design by Rachit.<br>
+          Slightly inspired by David Khourshid.
+        </p>
+        <p>
+          Select a chai and click/tap to see speciality of that.<br>
+          <!-- Works best in Chrome, Safari, and Firefox. -->
+        </p>
+        <p>Chai details from <a href="http://wikipedia.org">Wikipedia</a>.</p>
+      </div>
+    </aside>
+</body>
+</html>
