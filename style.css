@@ -2,18 +2,18 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic);
 @media only screen and (max-width: 767px) {
-      #main {
-        display: none; 
-      }
-      body::before {
-        content: "Please open this site on a desktop";
-        display: block;
-        text-align: center;
-        padding: 10px;
-        background-color: rgb(235, 235, 235); 
-        border: 1px solid black;
-      }
-    }
+  #main {
+    display: none; 
+  }
+  body::before {
+    content: "Please open this site on a desktop";
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(235, 235, 235); 
+    border: 1px solid black;
+  }
+}
 .coffee-title {
   height: 3rem;
   overflow: visible;
